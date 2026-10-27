@@ -6,6 +6,9 @@
 - [x] **Nutzbare interaktive Ethik-Karte**  
   Die Karte behandelt Datenschutz, Transparenz, Fairness & Gleichbehandlung, Compliance, KI-Verantwortung, Nachhaltigkeit, Integrität und soziale Verantwortung. Besucher können Themen suchen und filtern, jedes Thema per Maus oder Tastatur öffnen, Detailbeschreibung, Leitfragen, mögliche Folgen und Präventionsansätze lesen sowie einen Direktlink auf die geöffnete Detailansicht teilen. Eine semantisch gleichwertige Listenansicht bleibt nutzbar.
 
+- [x] **Lesbare Kartenknoten auf mittleren und kleinen Displays**  
+  Bei einer Breite wie der vorgelegten Kartenansicht ragen lange Themenbezeichnungen nicht aus ihren Karten heraus. Knoten erhalten ausreichend Breite und Höhe, kontrollierten deutschen Zeilenumbruch und eine angepasste Kartenfläche, ohne andere Knoten zu überdecken.
+
 - [x] **Passende Projekte und Webseiten vernetzen**  
   ethics.at erklärt und verlinkt passende Inhalte auf dangulea.at, digitalpath.at und coolwebtoday.org mit aussagekräftigen Linktexten. Die Verbindung zu ERP-Themen auf erp.contact wird als klar beschrifteter Kontextlink angelegt, ohne die Seiten inhaltlich zu vermischen.
 
@@ -15,5 +18,11 @@
 - [x] **Zugänglichkeit, SEO und technische Auslieferung**  
   Alle Seiten sind mobil lesbar, bieten sichtbare Tastaturfokusse und reduzierte Bewegungen bei entsprechender Systemeinstellung. Jede indexierbare Seite enthält Titel, Beschreibung und sinnvolle HTML-Inhalte im Initialdokument. `manus-routes.json`, Sitemap und Robots-Datei entsprechen der finalen Route-Liste; die statische Auslieferung erfolgt ohne Server, Datenbank, Tracking oder Drittanbieter-Embed.
 
-- [ ] **Repository und Übergabe**  
-  Der Code ist geprüft und wird als Manus-Checkpoint gespeichert. Die anschließende Übertragung in ein eigenes privates GitHub-Repository für ethics.at wartet auf die erforderliche Eigentümerbestätigung.
+- [x] **KI-Transparenz und Ethik-Labor**  
+  Eine sichtbare Transparenzseite und ein Footer-Link erklären, dass Struktur, Gestaltung und technische Umsetzung KI-unterstützt erstellt und vom verantwortlichen Herausgeber geprüft werden. Ein Ethik-Labor setzt ausgewählte Notion-Arbeitsstände als öffentliche, verständliche und statusgekennzeichnete Karten um: Virtual User AI/Ethics4All, Ethical Debt in ERP, Medizinethik & HCI, Ethik-DB/Informed Consent sowie passende Nachhaltigkeits- und Living-Lab-Bezüge. Konzepte, Prototypen, Forschungsstände und archivierte Themen werden klar unterschieden; private Notion-URLs werden nicht als öffentliche Voraussetzung verlinkt.
+
+- [x] **SEO- und KI-Suchoptimierung aller öffentlichen Seiten**
+  Jede indexierbare Hauptseite liefert im Initial-HTML einen eindeutigen Titel und eine Beschreibung innerhalb der empfohlenen Länge, 3–8 relevante Keywords, Canonical-URL, vollständige Open-Graph- und Twitter-Metadaten, Crawler-Anweisungen sowie valides JSON-LD mit passendem Seitentyp und Breadcrumbs. Die Startseite beschreibt zusätzlich Website und Herausgeber; strukturierte Listen werden nur aus tatsächlich sichtbaren Seiteninhalten gebildet. Sitemap und Routenverzeichnis bleiben vollständig konsistent. Historische Rohaufnahme und frühere Weiterleitungen sind `noindex,follow`. Eine öffentliche `llms.txt` erschließt die kanonischen Inhalte für KI-Lesesysteme, ohne private Quellen oder unbelegte Aussagen offenzulegen.
+
+- [x] **Repository und Übergabe**  
+  Der Code ist als Manus-Checkpoint `b71250a` gespeichert und nach Eigentümerbestätigung serverseitig verifiziert in das private GitHub-Repository `Claudiu-Dangulea/ethics-at` übertragen.

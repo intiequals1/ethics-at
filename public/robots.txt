@@ -1,3 +1,5 @@
+# Öffentliche, statische Wissenswebsite; indexierbare Seiten definieren ihre Einordnung zusätzlich per Meta Robots.
 User-agent: *
 Allow: /
+
 Sitemap: https://www.ethics.at/sitemap.xml
