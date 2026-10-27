@@ -14,7 +14,9 @@ Die Projekte und Webauftritte von Claudiu Dangulea werden kontextbezogen verknü
 - `/ethik-karte/` enthält die interaktive Orientierungshilfe zu Datenschutz, Transparenz, Fairness & Gleichbehandlung, Compliance, KI-Verantwortung, Nachhaltigkeit, Integrität und sozialer Verantwortung.
 - `/ressourcen/` bündelt die übernommenen Rechts-, Lese- und Kursressourcen; externe Ziele werden direkt ohne Google-Umleitungen gesetzt.
 - `/digitaler-humanismus/` übernimmt die Einordnung und Quellen zum Digitalen Humanismus.
-- `/projekte/` führt passende Projektverweise zu digitalpath.at, coolwebtoday.org und dangulea.at mit kurzer Einordnung zusammen.
+- `/projekte/` führt passende Projektverweise zu digitalpath.at, coolwebtoday.org und dangulea.at mit kurzer Einordnung zusammen und verweist in das Ethik-Labor.
+- `/ethik-labor/` macht ausgewählte, mit Status gekennzeichnete Arbeitsartefakte, Konzepte und Prototypen öffentlich verständlich. Grundlage sind verbundene Notion-Arbeitsstände; private Notion-URLs werden nicht als Voraussetzung für die Nutzung der öffentlichen Website verlinkt.
+- `/transparenz/` erklärt sichtbar die KI-unterstützte Erstellung der Website, die menschliche redaktionelle Prüfung und den Umgang mit ungeprüften Arbeitsständen.
 - `/historie/` dokumentiert die aktuelle Google-Sites-Fassung als Version 1 und diesen Neuaufbau als Version 2. Die vollständige Ausgangsaufnahme wird als statische Archivseite referenziert.
 - `/impressum/` übernimmt die bestehenden Anbieter- und GISA-Angaben sowie den geltenden Geltungsbereich. Eine veraltete Host-spezifische Datenschutzerklärung wird nicht als aktuelle Betriebsinformation fortgeführt; die endgültige Datenschutzerklärung wird vor der produktiven Domainumschaltung gegen den tatsächlich gewählten Hosting- und Analysebetrieb abgeglichen.
 
@@ -73,3 +75,9 @@ Als Stilalternativen wurden betrachtet: Ein ultraminimaler Schweizer Verwaltungs
 Interne Google-Sites-URLs werden durch dauerhafte Routen der neuen Website ersetzt. Google-Weiterleitungs-URLs werden zu direkten Zielen aufgelöst. Nicht mehr aktuelle oder unpassende Links wie die absichtlich nicht vorhandene Seite und der derzeit nicht erreichbare YouTube-Kanal werden nicht übernommen. Eine aktuelle IBM-ERP-URL kann auf den bereits erreichbaren Zielpfad `https://www.ibm.com/de-de/think/topics/enterprise-resource-planning` aktualisiert werden; Quellen mit Zugriffsschutz werden als solche nicht zur Voraussetzung der Verständlichkeit gemacht.
 
 Nach Fertigstellung wird das Projekt als eigenständiges privates GitHub-Repository angebunden. Die Plattform fordert dazu die notwendige Eigentümerbestätigung an; ohne diese Bestätigung verbleibt der kanonische Quellcode zunächst im Manus-verwalteten Repository.
+
+## Erweiterung nach Nutzerfeedback: Karten, KI-Transparenz und Ethik-Labor
+
+Die Kartenknoten der Ethik-Karte werden für mittlere und kleine Displaybreiten vergrößert, mit deutschem Zeilenumbruch (`hyphens: auto`) und kontrolliertem Wortumbruch versehen. Die Kartenfläche wächst an diesen Breakpoints mit, damit die Inhalte weder überstehen noch andere Knoten überlagern.
+
+Die Transparenzseite erklärt sichtbar die KI-unterstützte Erstellung von Struktur, Design und Technik sowie die menschliche redaktionelle Prüfung. Das Ethik-Labor überführt ausgewählte Arbeitsstände aus dem verbundenen Notion in kurze öffentliche Projektkarten. Es kennzeichnet Virtual User AI/Ethics4All als Konzept, Ethical Debt in ERP als unveröffentlichten Forschungsstand, Medizinethik & HCI als Diskussionskonzept, Ethik-DB/Informed Consent und Wattlize als Prototypen sowie HCDIS/CoolWebToday als Konzept. Private Notion-URLs bleiben private Quellen; die öffentliche Website verlinkt stattdessen nur belastbare öffentliche Zielseiten.
