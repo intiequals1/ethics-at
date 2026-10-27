@@ -88,6 +88,10 @@ Das Repository erhält ein README mit Entwicklungsweg, Routen, SEO-Dokumenten un
 
 Vor einer produktiven Domainumschaltung sind der tatsächliche Hosting-/CDN-Anbieter, Auftragsverarbeitung, Speicherort, Serverprotokollkategorien, Löschfrist, Empfänger, mögliche Drittlandübermittlungen und eine allenfalls vorhandene UID durch den Betreiber zu bestätigen. Ohne diese Tatsachen wird keine vollständige Produktions-Datenschutzerklärung behauptet.
 
+## Erweiterung nach Nutzerfeedback: GitHub-Pages-Auslieferung
+
+Die statischen Dateien bleiben im bestehenden Ordner `public/`, damit die lokale Vorschau und die Manus-Build-Konfiguration unverändert bleiben. Ein versionierter GitHub-Actions-Workflow lädt genau diesen Ordner als Pages-Artefakt hoch und veröffentlicht ihn. Die GitHub-Pages-Quelle wird auf „GitHub Actions“ umgestellt; eine Wurzel-Veröffentlichung des Repositorys wäre falsch, weil `index.html` nicht im Root, sondern in `public/` liegt. Die Custom Domain `ethics.at` wird in GitHub Pages beibehalten; DNS- und Zertifikatsstatus werden erst nach erfolgreicher Actions-Auslieferung als live bestätigt.
+
 ## Erweiterung nach Nutzerfeedback: SEO- und KI-Suchoptimierung
 
 Alle indexierbaren Hauptseiten erhalten suchintention-spezifische Titel und Beschreibungen innerhalb der dokumentierten Panel-Richtwerte, 3–8 relevante Meta-Keywords, `author`- und `robots`-Metadaten, vollständige Open-Graph- und Twitter-Card-Angaben sowie eine eindeutige Canonical-URL auf `https://www.ethics.at`. Die Inhalte bleiben als vollständiges HTML ohne JavaScript-Ausführung sichtbar.

@@ -28,6 +28,8 @@ Vor der produktiven Domainumschaltung sind diese Angaben durch den Betreiber zu 
 
 Die Umsetzung ist keine individuelle Rechtsberatung. Maßgebliche Orientierung geben die [WKO-Hinweise zu ECG-Informationspflichten](https://www.wko.at/internetrecht/informationspflichten-nach-dem-e-commerce-gesetz--dem-unte), die [WKO-Übersicht zum Website-Impressum](https://www.wko.at/internetrecht/website-impressum), die [Datenschutzbehörde zu Cookies](https://dsb.gv.at/faqs/datenschutz-cookies), [Artikel 13 DSGVO](https://eur-lex.europa.eu/legal-content/DE-EN-PL/TXT/?uri=CELEX:32016R0679) und das [RIS](https://www.ris.bka.gv.at/).
 
-## Repository und Arbeitsweise
+## Repository und Veröffentlichung
 
-Das kanonische private Repository ist `intiequals1/ethics-at`. Änderungen erfolgen auf `main`, werden nach einem statischen Routen- und Metadatencheck committed und auf das Repository gepusht. Der aktuelle Arbeitsbaum sollte vor einer Änderung mit `git pull --ff-only origin main` aktualisiert werden, sofern er sauber ist.
+Das kanonische Repository ist `intiequals1/ethics-at`. Die Website-Dateien liegen bewusst in `public/`; deshalb veröffentlicht `.github/workflows/deploy-pages.yml` bei jedem Push mit Änderungen unter `public/` den gesamten Ordner über GitHub Pages. Die Pages-Einstellung muss als Veröffentlichungsquelle „GitHub Actions“ verwenden; der aktuell konfigurierte Custom-Domain-Name lautet `ethics.at`.
+
+Die Datei `CNAME` dokumentiert die gewünschte Domain im Repository. Die Domain selbst bleibt in den GitHub-Pages-Einstellungen hinterlegt. Nach DNS-Änderungen kann die TLS-Ausstellung bis zu 24 Stunden dauern. Änderungen erfolgen auf `main`, werden nach einem statischen Routen- und Metadatencheck committed und auf das Repository gepusht. Der aktuelle Arbeitsbaum sollte vor einer Änderung mit `git pull --ff-only origin main` aktualisiert werden, sofern er sauber ist.
