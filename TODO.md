@@ -21,5 +21,8 @@
 - [x] **KI-Transparenz und Ethik-Labor**  
   Eine sichtbare Transparenzseite und ein Footer-Link erklären, dass Struktur, Gestaltung und technische Umsetzung KI-unterstützt erstellt und vom verantwortlichen Herausgeber geprüft werden. Ein Ethik-Labor setzt ausgewählte Notion-Arbeitsstände als öffentliche, verständliche und statusgekennzeichnete Karten um: Virtual User AI/Ethics4All, Ethical Debt in ERP, Medizinethik & HCI, Ethik-DB/Informed Consent sowie passende Nachhaltigkeits- und Living-Lab-Bezüge. Konzepte, Prototypen, Forschungsstände und archivierte Themen werden klar unterschieden; private Notion-URLs werden nicht als öffentliche Voraussetzung verlinkt.
 
+- [x] **SEO- und KI-Suchoptimierung aller öffentlichen Seiten**
+  Jede indexierbare Hauptseite liefert im Initial-HTML einen eindeutigen Titel und eine Beschreibung innerhalb der empfohlenen Länge, 3–8 relevante Keywords, Canonical-URL, vollständige Open-Graph- und Twitter-Metadaten, Crawler-Anweisungen sowie valides JSON-LD mit passendem Seitentyp und Breadcrumbs. Die Startseite beschreibt zusätzlich Website und Herausgeber; strukturierte Listen werden nur aus tatsächlich sichtbaren Seiteninhalten gebildet. Sitemap und Routenverzeichnis bleiben vollständig konsistent. Historische Rohaufnahme und frühere Weiterleitungen sind `noindex,follow`. Eine öffentliche `llms.txt` erschließt die kanonischen Inhalte für KI-Lesesysteme, ohne private Quellen oder unbelegte Aussagen offenzulegen.
+
 - [x] **Repository und Übergabe**  
   Der Code ist als Manus-Checkpoint `b71250a` gespeichert und nach Eigentümerbestätigung serverseitig verifiziert in das private GitHub-Repository `Claudiu-Dangulea/ethics-at` übertragen.

@@ -81,3 +81,11 @@ Nach Fertigstellung wird das Projekt als eigenständiges privates GitHub-Reposit
 Die Kartenknoten der Ethik-Karte werden für mittlere und kleine Displaybreiten vergrößert, mit deutschem Zeilenumbruch (`hyphens: auto`) und kontrolliertem Wortumbruch versehen. Die Kartenfläche wächst an diesen Breakpoints mit, damit die Inhalte weder überstehen noch andere Knoten überlagern.
 
 Die Transparenzseite erklärt sichtbar die KI-unterstützte Erstellung von Struktur, Design und Technik sowie die menschliche redaktionelle Prüfung. Das Ethik-Labor überführt ausgewählte Arbeitsstände aus dem verbundenen Notion in kurze öffentliche Projektkarten. Es kennzeichnet Virtual User AI/Ethics4All als Konzept, Ethical Debt in ERP als unveröffentlichten Forschungsstand, Medizinethik & HCI als Diskussionskonzept, Ethik-DB/Informed Consent und Wattlize als Prototypen sowie HCDIS/CoolWebToday als Konzept. Private Notion-URLs bleiben private Quellen; die öffentliche Website verlinkt stattdessen nur belastbare öffentliche Zielseiten.
+
+## Erweiterung nach Nutzerfeedback: SEO- und KI-Suchoptimierung
+
+Alle indexierbaren Hauptseiten erhalten suchintention-spezifische Titel und Beschreibungen innerhalb der dokumentierten Panel-Richtwerte, 3–8 relevante Meta-Keywords, `author`- und `robots`-Metadaten, vollständige Open-Graph- und Twitter-Card-Angaben sowie eine eindeutige Canonical-URL auf `https://www.ethics.at`. Die Inhalte bleiben als vollständiges HTML ohne JavaScript-Ausführung sichtbar.
+
+Je Route wird ein valides JSON-LD-Dokument mit `WebPage` bzw. passendem spezifischem Seitentyp und `BreadcrumbList` hinterlegt. Die Startseite beschreibt zusätzlich Website und Herausgeber; Ethik-Karte, Projekte und Ethik-Labor enthalten nur dort strukturierte Listen, wo die benannten Inhalte tatsächlich auf der Seite vorhanden sind. Keine privaten Notion-URLs oder nicht belegten Leistungsversprechen gelangen in die strukturierten Daten.
+
+`sitemap.xml` führt ausschließlich indexierbare Seiten mit aktuellem Änderungsdatum. Historische Rohaufnahme und die bisherigen Weiterleitungsrouten werden über `noindex,follow` von der Indexierung ausgenommen. `llms.txt` bietet eine klar gegliederte, menschen- und KI-lesbare Inhaltslandkarte mit den kanonischen öffentlichen URLs; der globale Crawlerzugang bleibt über `robots.txt` offen.
