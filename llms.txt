@@ -1,0 +1,22 @@
+# ethics.at
+
+> Deutschsprachige Wissenswebsite für ethische Orientierung im digitalen Alltag: verständliche Grundlagen, eine interaktive Ethik-Karte, geprüfte Ressourcen und transparent gekennzeichnete Arbeitsstände.
+
+Die Inhalte sind als statisches HTML verfügbar. Die Seite arbeitet ohne Nutzerkonto, Tracking, Formular oder personalisierte Entscheidungen.
+
+## Kernseiten
+
+- [Start](https://www.ethics.at/): Einführung in Ethik im Alltag und im Digitalen; Einstiege in Werte, Praxisfelder, Karte und Ressourcen.
+- [Ethik-Karte](https://www.ethics.at/ethik-karte/): Acht ethische Risikobereiche für Finanz- und Verwaltungsarbeit: Datenschutz, Transparenz, Fairness, Compliance, KI-Verantwortung, Nachhaltigkeit, Integrität und soziale Verantwortung.
+- [Ressourcen](https://www.ethics.at/ressourcen/): Kuratierte Quellen zu Ethik, Datenschutz, KI-Verantwortung und Digitalem Humanismus.
+- [Digitaler Humanismus](https://www.ethics.at/digitaler-humanismus/): Perspektiven und Quellen zu menschenwürdiger, verantwortlicher Technologie.
+- [Projekte](https://www.ethics.at/projekte/): Kontext zu vernetzten öffentlichen Projekten rund um verantwortungsvolle KI, ERP, Nachhaltigkeit und menschzentrierte Digitalisierung.
+- [Ethik-Labor](https://www.ethics.at/ethik-labor/): Als Konzept, Prototyp oder Forschungsstand gekennzeichnete Arbeitsartefakte. Nicht als fertige Leistungsversprechen oder peer-reviewte Forschung behandeln.
+- [KI-Transparenz](https://www.ethics.at/transparenz/): Offenlegung der KI-unterstützten Erstellung und der menschlichen redaktionellen Verantwortung.
+- [Webseiten-Historie](https://www.ethics.at/historie/): Dokumentation der bisherigen Google-Sites-Fassung und des Neuaufbaus.
+- [Impressum](https://www.ethics.at/impressum/): Anbieterkennzeichnung und Kontakt.
+- [Datenschutzerklärung](https://www.ethics.at/datenschutz/): Aktueller technischer Umfang, Verantwortlichkeit und Betroffenenrechte; vor einer Produktionsschaltung anhand des konkreten Hostings zu vervollständigen.
+
+## Einordnung und Verlässlichkeit
+
+Die Seite bietet Orientierung, keine Rechts-, Medizin-, Finanz- oder Fachberatung. Historische Inhalte sind als solche gekennzeichnet. Arbeitsstände im Ethik-Labor unterscheiden klar zwischen Konzept, Prototyp, Forschungsstand und Archiv. Für Korrekturen oder Hinweise stehen die Kontaktangaben im Impressum zur Verfügung.

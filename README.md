@@ -30,6 +30,10 @@ Die Umsetzung ist keine individuelle Rechtsberatung. Maßgebliche Orientierung g
 
 ## Repository und Veröffentlichung
 
-Das kanonische Repository ist `intiequals1/ethics-at`. Die Website-Dateien liegen bewusst in `public/`; deshalb veröffentlicht `.github/workflows/deploy-pages.yml` bei jedem Push mit Änderungen unter `public/` den gesamten Ordner über GitHub Pages. Die Pages-Einstellung muss als Veröffentlichungsquelle „GitHub Actions“ verwenden; der aktuell konfigurierte Custom-Domain-Name lautet `ethics.at`.
+Das kanonische Repository ist `intiequals1/ethics-at`. Die Entwicklungs- und Manus-Auslieferungsquelle bleibt `public/`. GitHub Pages ist derzeit auf `main` mit dem Repository-Wurzelverzeichnis eingestellt; deshalb spiegelt `scripts/sync_github_pages_root.py` ausschließlich die statischen Dateien aus `public/` in die Root-Auslieferung. Das Skript wird nach jeder Änderung unter `public/` ausgeführt und sein Ergebnis gemeinsam committed.
 
-Die Datei `CNAME` dokumentiert die gewünschte Domain im Repository. Die Domain selbst bleibt in den GitHub-Pages-Einstellungen hinterlegt. Nach DNS-Änderungen kann die TLS-Ausstellung bis zu 24 Stunden dauern. Änderungen erfolgen auf `main`, werden nach einem statischen Routen- und Metadatencheck committed und auf das Repository gepusht. Der aktuelle Arbeitsbaum sollte vor einer Änderung mit `git pull --ff-only origin main` aktualisiert werden, sofern er sauber ist.
+```bash
+python3 scripts/sync_github_pages_root.py
+```
+
+`.nojekyll` stellt sicher, dass GitHub Pages die statischen Dateien unverändert ausliefert. Die Datei `CNAME` dokumentiert die gewünschte Domain; die Domain selbst bleibt in den GitHub-Pages-Einstellungen hinterlegt. Nach DNS-Änderungen kann die TLS-Ausstellung bis zu 24 Stunden dauern. Änderungen erfolgen auf `main`, werden nach einem statischen Routen- und Metadatencheck committed und auf das Repository gepusht. Der aktuelle Arbeitsbaum sollte vor einer Änderung mit `git pull --ff-only origin main` aktualisiert werden, sofern er sauber ist.

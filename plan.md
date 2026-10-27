@@ -90,7 +90,7 @@ Vor einer produktiven Domainumschaltung sind der tatsächliche Hosting-/CDN-Anbi
 
 ## Erweiterung nach Nutzerfeedback: GitHub-Pages-Auslieferung
 
-Die statischen Dateien bleiben im bestehenden Ordner `public/`, damit die lokale Vorschau und die Manus-Build-Konfiguration unverändert bleiben. Ein versionierter GitHub-Actions-Workflow lädt genau diesen Ordner als Pages-Artefakt hoch und veröffentlicht ihn. Die GitHub-Pages-Quelle wird auf „GitHub Actions“ umgestellt; eine Wurzel-Veröffentlichung des Repositorys wäre falsch, weil `index.html` nicht im Root, sondern in `public/` liegt. Die Custom Domain `ethics.at` wird in GitHub Pages beibehalten; DNS- und Zertifikatsstatus werden erst nach erfolgreicher Actions-Auslieferung als live bestätigt.
+Die statischen Dateien bleiben im bestehenden Ordner `public/`, damit die lokale Vorschau und die Manus-Build-Konfiguration unverändert bleiben. GitHub Pages ist bereits auf `main` im Repository-Wurzelverzeichnis eingestellt und die aktuelle Integration darf diese Pages-Einstellung nicht per API ändern. Ein versioniertes Synchronisierungsskript spiegelt deshalb genau die Dateien aus `public/` in die Root-Auslieferung. `.nojekyll` verhindert eine unbeabsichtigte Jekyll-Verarbeitung. Die Custom Domain `ethics.at` bleibt in GitHub Pages beibehalten; DNS- und Zertifikatsstatus werden erst nach erfolgreichem Pages-Build als live bestätigt.
 
 ## Erweiterung nach Nutzerfeedback: SEO- und KI-Suchoptimierung
 
