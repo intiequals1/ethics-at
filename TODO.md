@@ -30,8 +30,8 @@
 - [x] **Projekt-README**
   Das Repository enthält ein README mit lokaler Vorschau, Projektstruktur, SEO-/KI-Lesedokumenten, der kanonischen Repository-Zuordnung und dem rechtlichen Restprüfpunkt vor der Produktionsschaltung.
 
-- [ ] **GitHub-Pages-Auslieferung für ethics.at**
-  GitHub Pages veröffentlicht aktuell `main` aus dem Repository-Wurzelverzeichnis. Ein versioniertes Skript spiegelt deshalb den vollständigen bestehenden statischen Ordner `public/` in diese Root-Auslieferung, damit `public/index.html` als Website-Startseite erscheint. Die bereits konfigurierte Custom Domain `ethics.at`, die Apex- und www-DNS-Records sowie HTTPS werden nach dem erfolgreichen Pages-Build geprüft; vorhandene MX- und E-Mail-Einträge bleiben unberührt.
+- [x] **GitHub-Pages-Auslieferung für ethics.at**
+  GitHub Pages veröffentlicht aktuell `main` aus dem Repository-Wurzelverzeichnis. Ein versioniertes Skript spiegelt deshalb den vollständigen bestehenden statischen Ordner `public/` in diese Root-Auslieferung, damit `public/index.html` als Website-Startseite erscheint. Der Pages-Build für Commit `e0c0528` ist erfolgreich; `https://ethics.at/` liefert die neue Startseite über HTTPS, und `https://www.ethics.at/` leitet auf die Hauptdomain weiter. Vorhandene MX- und E-Mail-Einträge blieben unverändert.
 
 - [x] **Repository und Übergabe**  
   Der Code ist als Manus-Checkpoint `b71250a` gespeichert und nach Eigentümerbestätigung serverseitig verifiziert in das private GitHub-Repository `Claudiu-Dangulea/ethics-at` übertragen.
