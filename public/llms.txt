@@ -15,6 +15,7 @@ Die Inhalte sind als statisches HTML verfügbar. Die Seite arbeitet ohne Nutzerk
 - [KI-Transparenz](https://www.ethics.at/transparenz/): Offenlegung der KI-unterstützten Erstellung und der menschlichen redaktionellen Verantwortung.
 - [Webseiten-Historie](https://www.ethics.at/historie/): Dokumentation der bisherigen Google-Sites-Fassung und des Neuaufbaus.
 - [Impressum](https://www.ethics.at/impressum/): Anbieterkennzeichnung und Kontakt.
+- [Datenschutzerklärung](https://www.ethics.at/datenschutz/): Aktueller technischer Umfang, Verantwortlichkeit und Betroffenenrechte; vor einer Produktionsschaltung anhand des konkreten Hostings zu vervollständigen.
 
 ## Einordnung und Verlässlichkeit
 

@@ -24,5 +24,11 @@
 - [x] **SEO- und KI-Suchoptimierung aller öffentlichen Seiten**
   Jede indexierbare Hauptseite liefert im Initial-HTML einen eindeutigen Titel und eine Beschreibung innerhalb der empfohlenen Länge, 3–8 relevante Keywords, Canonical-URL, vollständige Open-Graph- und Twitter-Metadaten, Crawler-Anweisungen sowie valides JSON-LD mit passendem Seitentyp und Breadcrumbs. Die Startseite beschreibt zusätzlich Website und Herausgeber; strukturierte Listen werden nur aus tatsächlich sichtbaren Seiteninhalten gebildet. Sitemap und Routenverzeichnis bleiben vollständig konsistent. Historische Rohaufnahme und frühere Weiterleitungen sind `noindex,follow`. Eine öffentliche `llms.txt` erschließt die kanonischen Inhalte für KI-Lesesysteme, ohne private Quellen oder unbelegte Aussagen offenzulegen.
 
+- [ ] **Rechts- und Datenschutzangaben für die Produktionsschaltung**
+  README, Impressum und Datenschutzerklärung dokumentieren die aktuelle statische Website. Das Impressum enthält die vorhandenen Angaben zu Diensteanbieter, Medieninhaber, Zustellanschrift, Kontakt, GISA, Firmenbuchstatus, Aufsichtsbehörde, Kammer, Rechtsvorschriften, Blattlinie und Geltungsbereich. Die Datenschutzerklärung erklärt den derzeit geprüften Verzicht auf Formulare, Analytics, Drittanbieter-Embeds und Quellcode-Cookies. Vor einer produktiven Domainumschaltung bestätigt der Betreiber den tatsächlichen Hosting-/CDN-Anbieter, Auftragsverarbeitung, Speicherort, Server-Logdaten, Löschfristen, Empfänger, etwaige Drittlandübermittlungen sowie eine vorhandene UID; neue Tracking- oder Drittanbieterfunktionen werden erst nach erneuter Datenschutzprüfung aktiviert.
+
+- [x] **Projekt-README**
+  Das Repository enthält ein README mit lokaler Vorschau, Projektstruktur, SEO-/KI-Lesedokumenten, der kanonischen Repository-Zuordnung und dem rechtlichen Restprüfpunkt vor der Produktionsschaltung.
+
 - [x] **Repository und Übergabe**  
   Der Code ist als Manus-Checkpoint `b71250a` gespeichert und nach Eigentümerbestätigung serverseitig verifiziert in das private GitHub-Repository `Claudiu-Dangulea/ethics-at` übertragen.

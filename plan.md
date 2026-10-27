@@ -82,6 +82,12 @@ Die Kartenknoten der Ethik-Karte werden für mittlere und kleine Displaybreiten 
 
 Die Transparenzseite erklärt sichtbar die KI-unterstützte Erstellung von Struktur, Design und Technik sowie die menschliche redaktionelle Prüfung. Das Ethik-Labor überführt ausgewählte Arbeitsstände aus dem verbundenen Notion in kurze öffentliche Projektkarten. Es kennzeichnet Virtual User AI/Ethics4All als Konzept, Ethical Debt in ERP als unveröffentlichten Forschungsstand, Medizinethik & HCI als Diskussionskonzept, Ethik-DB/Informed Consent und Wattlize als Prototypen sowie HCDIS/CoolWebToday als Konzept. Private Notion-URLs bleiben private Quellen; die öffentliche Website verlinkt stattdessen nur belastbare öffentliche Zielseiten.
 
+## Erweiterung nach Nutzerfeedback: README und Rechtsangaben
+
+Das Repository erhält ein README mit Entwicklungsweg, Routen, SEO-Dokumenten und einem klaren Rechts- und Datenschutzstatus. Das Impressum wird anhand der öffentlich vorhandenen Angaben um die zuständige Gewerbebehörde, Kammerzugehörigkeit, einschlägige Rechtsvorschriften und den Link zum GISA ergänzt. Eine eigenständige Datenschutzerklärung ist von jedem Footer aus erreichbar. Sie dokumentiert den geprüften, statischen Umfang ohne Formulare, Analytics, Drittanbieter-Embeds oder im Quellcode gesetzte Cookies.
+
+Vor einer produktiven Domainumschaltung sind der tatsächliche Hosting-/CDN-Anbieter, Auftragsverarbeitung, Speicherort, Serverprotokollkategorien, Löschfrist, Empfänger, mögliche Drittlandübermittlungen und eine allenfalls vorhandene UID durch den Betreiber zu bestätigen. Ohne diese Tatsachen wird keine vollständige Produktions-Datenschutzerklärung behauptet.
+
 ## Erweiterung nach Nutzerfeedback: SEO- und KI-Suchoptimierung
 
 Alle indexierbaren Hauptseiten erhalten suchintention-spezifische Titel und Beschreibungen innerhalb der dokumentierten Panel-Richtwerte, 3–8 relevante Meta-Keywords, `author`- und `robots`-Metadaten, vollständige Open-Graph- und Twitter-Card-Angaben sowie eine eindeutige Canonical-URL auf `https://www.ethics.at`. Die Inhalte bleiben als vollständiges HTML ohne JavaScript-Ausführung sichtbar.
