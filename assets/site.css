@@ -243,3 +243,8 @@ p { margin: 0 0 1rem; }
 .privacy-notice-actions button { font: inherit; font-weight: 600; padding: .5rem .95rem; border: 0; border-radius: 6px; background: var(--green); color: #fff; cursor: pointer; }
 .privacy-notice-actions button:hover { background: var(--green-deep); }
 @media print { .privacy-notice { display: none; } }
+
+/* Hinweis zum Entwicklungsstand */
+.site-notice { border-bottom: 1px solid var(--line); background: var(--paper-deep); color: var(--ink-soft); font-size: .92rem; line-height: 1.5; padding: .6rem clamp(1.25rem, 4vw, 3rem); }
+.site-notice p { max-width: 72rem; margin: 0 auto; }
+.site-notice strong { color: var(--green-deep); }
