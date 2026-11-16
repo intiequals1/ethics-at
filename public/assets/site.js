@@ -210,8 +210,34 @@
     if (initialId && risks.some((risk) => risk.id === initialId)) selectRisk(initialId);
   }
 
+  /* Datenschutzhinweis: informiert und fragt keine Einwilligung ab, weil ethics.at keine Cookies,
+     kein Tracking und keine Drittinhalte nutzt. Gespeichert wird nur, dass der Hinweis geschlossen
+     wurde (Schlüssel NOTICE_KEY, beschrieben unter /datenschutz/). */
+  const NOTICE_KEY = 'ethicsat.datenschutzhinweis.v1';
+
+  function initPrivacyNotice() {
+    let closed = null;
+    try { closed = window.localStorage.getItem(NOTICE_KEY); } catch { closed = null; }
+    if (closed === 'geschlossen' || !document.body) return;
+    const box = document.createElement('aside');
+    box.className = 'privacy-notice';
+    box.setAttribute('aria-label', 'Datenschutzhinweis');
+    box.innerHTML = '<p>ethics.at setzt keine Cookies und kein Tracking ein und lädt keine Inhalte von Drittanbietern. '
+      + 'Wenn Sie diesen Hinweis schließen, wird nur das in Ihrem Browser vermerkt.</p>'
+      + '<div class="privacy-notice-actions"><a href="/datenschutz/">Datenschutzerklärung</a>'
+      + '<button type="button">Verstanden</button></div>';
+    document.body.appendChild(box);
+    document.body.style.paddingBottom = `${box.offsetHeight + 24}px`;
+    box.querySelector('button').addEventListener('click', () => {
+      try { window.localStorage.setItem(NOTICE_KEY, 'geschlossen'); } catch { /* nur für diesen Aufruf */ }
+      box.remove();
+      document.body.style.paddingBottom = '';
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
     initEthicsMap();
+    initPrivacyNotice();
   });
 })();
