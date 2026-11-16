@@ -26,6 +26,7 @@
 
 - [ ] **Rechts- und Datenschutzangaben für die Produktionsschaltung**
   README, Impressum und Datenschutzerklärung dokumentieren die aktuelle statische Website. Das Impressum enthält die vorhandenen Angaben zu Diensteanbieter, Medieninhaber, Zustellanschrift, Kontakt, GISA, Firmenbuchstatus, Aufsichtsbehörde, Kammer, Rechtsvorschriften, Blattlinie und Geltungsbereich. Die Datenschutzerklärung erklärt den derzeit geprüften Verzicht auf Formulare, Analytics, Drittanbieter-Embeds und Quellcode-Cookies. Vor einer produktiven Domainumschaltung bestätigt der Betreiber den tatsächlichen Hosting-/CDN-Anbieter, Auftragsverarbeitung, Speicherort, Server-Logdaten, Löschfristen, Empfänger, etwaige Drittlandübermittlungen sowie eine vorhandene UID; neue Tracking- oder Drittanbieterfunktionen werden erst nach erneuter Datenschutzprüfung aktiviert.
+  Stand 16.11.2026: Hosting (GitHub Pages, GitHub, Inc., USA, EU-US Data Privacy Framework) ist in der Datenschutzerklärung genannt, der Datenschutzhinweis ist eingebaut (siehe `CHANGELOG.md`). Offen bleibt die Bestätigung der UID durch den Betreiber.
 
 - [x] **Projekt-README**
   Das Repository enthält ein README mit lokaler Vorschau, Projektstruktur, SEO-/KI-Lesedokumenten, der kanonischen Repository-Zuordnung und dem rechtlichen Restprüfpunkt vor der Produktionsschaltung.
