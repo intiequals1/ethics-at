@@ -24,3 +24,13 @@ Die öffentliche Fassung dieser Einträge steht auf der Seite `/historie/`.
 - Die Datenschutzerklärung bezeichnete sich aber selbst als Entwicklungsstand und ließ den Hosting-Anbieter offen, obwohl die Seite öffentlich über GitHub Pages ausgeliefert wird (Antwort-Header `server: GitHub.com`). Art. 13 DSGVO verlangt, Empfänger und Drittlandübermittlungen zu nennen. Eine Erklärung, die sich selbst für unvollständig erklärt, erfüllt das im laufenden Betrieb nicht.
 - Der Datenschutzhinweis wurde auf Wunsch des Betreibers für alle eigenen Seiten einheitlich eingeführt. Eine Einwilligung wird bewusst nicht abgefragt, weil die Seite nichts einsetzt, das eine erfordert. Das Merken des Schließens ist in der Datenschutzerklärung offengelegt.
 - Die Historie-Seite sagt zu, Funktionsänderungen dort mit Datum zu ergänzen; deshalb steht die Änderung auch öffentlich unter `/historie/`.
+
+## 2026-11-16 – Verweis auf die ePrivacy-Richtlinie
+
+### Was geändert wurde
+
+- Datenschutzerklärung, Abschnitt „Datenschutzhinweis“: Neben § 165 Abs. 3 TKG 2021 steht jetzt auch die zugrunde liegende EU-Norm, Art. 5 Abs. 3 der ePrivacy-Richtlinie 2002/58/EG.
+
+### Warum
+
+- Auf Hinweis des Betreibers. § 165 Abs. 3 TKG 2021 setzt die Vorgabe der ePrivacy-Richtlinie für das Speichern von Informationen im Endgerät in österreichisches Recht um. Der Doppelverweis macht für Leserinnen und Leser außerhalb Österreichs nachvollziehbar, auf welcher Regel die einwilligungsfreie Speicherung beruht.
